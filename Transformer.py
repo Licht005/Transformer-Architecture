@@ -1,6 +1,4 @@
 # Full Transformer Implementation in PyTorch
-
-
 import torch
 import torch.nn as nn
 
@@ -218,7 +216,6 @@ class Transformer(nn.Module):
         return out
 
 
-# -------------------------------
 # Quick Test Run
 # -------------------------------
 if __name__ == "__main__":
@@ -243,4 +240,4 @@ if __name__ == "__main__":
 
     # Forward pass
     out = model(src, trg)
-    print("Output shape:", out.shape)  # Expected: (batch_size, trg_len, trg_vocab_size)
+    print("Output shape:", out.shape)  # xpected: (batch_size, trg_len, trg_vocab_size)
