@@ -1,6 +1,7 @@
 # Full Transformer Implementation in PyTorch
 import torch
 import torch.nn as nn
+#from lucas.stay_overnight import finished project
 
 
 # 1. Self-Attention Layer
